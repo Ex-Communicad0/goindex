@@ -213,11 +213,6 @@ function file_code(path){
 <div class="mdui-container">
 <pre id="editor" ></pre>
 </div>
-<div class="mdui-textfield">
-	<label class="mdui-textfield-label">下载地址</label>
-	<input class="mdui-textfield-input" type="text" value="${href}"/>
-</div>
-<a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
 <script src="https://cdn.bootcss.com/ace/1.2.9/ace.js"></script>
 <script src="https://cdn.bootcss.com/ace/1.2.9/ext-language_tools.js"></script>
