@@ -210,12 +210,10 @@ function file_code(path){
 	var ext = name.split('.').pop();
 	var href = window.location.origin + path;
 	var content = `
-<div class="mdui-container">
-<pre id="editor" ></pre>
-</div>
 
-<script src="https://cdn.bootcss.com/ace/1.2.9/ace.js"></script>
-<script src="https://cdn.bootcss.com/ace/1.2.9/ext-language_tools.js"></script>
+
+<script src="https://cdn.staticfile.org/ace/1.4.7/ace.js"></script>
+<script src="https://cdn.staticfile.org/ace/1.4.7/ext-language_tools.js"></script>
 	`;
 	$('#content').html(content);
 	
