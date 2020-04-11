@@ -248,6 +248,15 @@ function file_video(path){
 	  <source src="${url}" type="video/mp4">
 	</video>
 	<br>${playBtn}
+        <!-- 固定标签 -->
+	<div class="mdui-textfield">
+	  <label class="mdui-textfield-label">Stream Url</label>
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
+	</div>
+	<div class="mdui-textfield">
+	  <label class="mdui-textfield-label">HTML Source Url</label>
+	  <textarea class="mdui-textfield-input"><video><source src="${url}" type="video/mp4"></video></textarea>
+	</div>
 </div>
 	`;
 	$('#content').html(content);
