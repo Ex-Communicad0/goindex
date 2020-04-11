@@ -247,10 +247,10 @@ function file_video(path){
 	<video class="mdui-video-fluid mdui-center" preload controls>
 	  <source src="${url}" type="video/mp4">
 	</video>
-	<br>${playBtn}
+	<br>
         <!-- 固定标签 -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">Stream Url</label>
+	  <label class="mdui-textfield-label">固定标签</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 	<div class="mdui-textfield">
